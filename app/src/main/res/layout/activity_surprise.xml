@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="in.kicka55studios.surprise.Surprise">
+
+    <ImageView
+        android:id="@+id/bdayImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:minHeight="320dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/abc_ic_voice_search_api_mtrl_alpha" />
+
+    <TextView
+        android:id="@+id/wishing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:padding="10dp"
+        android:singleLine="false"
+        android:text="Personalized Message"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
